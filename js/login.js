@@ -38,7 +38,7 @@ document.getElementById('btn-login').addEventListener('click', function(event) {
     // bad way to validate
     if(phoneNumber === '5' && pinNumber === '1234'){
         console.log('You are login');
-        window.location.href = '/home.html';
+        window.location.href = './home.html';
     }
     else {
         alert('Wrong pin & phone number');
